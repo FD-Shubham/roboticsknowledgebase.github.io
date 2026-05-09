@@ -251,7 +251,7 @@ wiki:
       - title: Simulating UGVs in Unity
         url: /wiki/simulation/simulating-ugvs-in-unity/
       - title: Creating Custom Robot Models for MuJoCo
-        url: /wiki/simulation/mujoco-robot-modeling
+        url: /wiki/simulation/mujoco-robot-modeling/
   - title: Interfacing
     url: /wiki/interfacing/
     children:
