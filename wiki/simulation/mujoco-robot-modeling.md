@@ -254,7 +254,7 @@ import mujoco
 
 # Load from URDF and save as MJCF
 model = mujoco.MjModel.from_xml_path('my_robot.urdf')
-mujoco.mj_saveModel(model, 'my_robot.xml')
+mujoco.mj_saveLastXML('my_robot.xml', model)
 ```
 
 > The URDF-to-MJCF conversion may produce suboptimal contact and collision parameters. Always review the converted MJCF manually — especially the `<contact>`, `<option>`, and `<actuator>` sections.
