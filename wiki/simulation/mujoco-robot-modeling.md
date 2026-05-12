@@ -55,7 +55,7 @@ onshape-to-robot .
 python -c "
 import mujoco
 m = mujoco.MjModel.from_xml_path('robot.urdf')
-mujoco.mj_saveModel(m, 'robot.xml')
+mujoco.mj_saveLastXML('robot.xml', m)
 "
 ```
 
